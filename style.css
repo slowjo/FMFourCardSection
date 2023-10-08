@@ -51,6 +51,10 @@ body {
     position: relative;
 }
 
+main {
+    margin-inline: auto;
+}
+
 h1,
 h1 + p {
     text-align: center;
@@ -152,7 +156,7 @@ footer {
         align-items: center;
         justify-content: center;
         min-height: 100vh;
-        padding: 80px 165px;
+        padding: 80px 80px;
     }
 
     h1 {
@@ -197,5 +201,11 @@ footer {
     svg {
         width: 64px;
         height: 64px;
+    }
+}
+
+@media (min-width: 1100px) {
+    body {
+        padding: 80px 165px;
     }
 }
