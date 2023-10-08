@@ -79,14 +79,14 @@ h1 {
 
 h1 span {
     display: block;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 h1 + p {
     font-weight: 500;
     font-size: 15px;
     line-height: 25px;
-    max-width: 520px;
+    max-width: 530px;
     margin-bottom: 75px;
     margin-inline: auto;
 }
@@ -99,8 +99,9 @@ ul {
 li {
     padding: 24px 28px 28px;
     border-radius: 4px;
-    box-shadow:  9px 9px 18px hsl(234, 12%, 34%, 0.3),
-             -9px -9px 18px hsl(0, 0%, 98%);
+    -webkit-box-shadow: 10px 10px 22px -10px rgba(0,0,0,0.2);
+    -moz-box-shadow: 10px 10px 22px -10px rgba(0,0,0,0.2);
+    box-shadow: 10px 10px 22px -10px rgba(0,0,0,0.2);
 }
 
 li:first-child {
